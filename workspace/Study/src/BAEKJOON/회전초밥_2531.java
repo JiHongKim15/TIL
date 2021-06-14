@@ -48,8 +48,9 @@ public class È¸ÀüÃÊ¹ä_2531 {
 				hs.put(sushi[i+k-1], 1);
 			
 			result = Math.max(result, hs.size());
-
 		}
+		
+		
 
 
 		System.out.println(result);
