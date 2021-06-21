@@ -3,7 +3,7 @@ package BAEKJOON;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class гуюл0 {
+public class М∙╘Л²╢0 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
@@ -32,7 +32,7 @@ public class гуюл0 {
 		long[] plus2 = new long[20001];
 		long[] minus2 = new long[20001];
 
-		// ╬Г╪Ж ╣н╟Ё╥н ╦╦╣И╬НаЬ ╧Х©╜
+		// О©╫О©╫О©╫ О©╫н╟О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫О©╫ О©╫Х©╜
 		// 0 1 2 2 3 7
 
 		for (int i = 0; i < plus.size(); i++) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class µÎ¹è¿­ÀÇÇÕ_2143 {
+public class ë‘ë°°ì—´ì˜í•©_2143 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
@@ -55,7 +55,7 @@ public class µÎ¹è¿­ÀÇÇÕ_2143 {
 		int right = brr.size() -1;
 
 		
-		// Áßº¹Ã³¸®
+		// ï¿½ßºï¿½Ã³ï¿½ï¿½
 		while (true) {
 			if (left == arr.size() || right < 0)
 				break;

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class ¼ö°í¸£±â_2230 {
+public class ìˆ˜ê³ ë¥´ê¸°_2230 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

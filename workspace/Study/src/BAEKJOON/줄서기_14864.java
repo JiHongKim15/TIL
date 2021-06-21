@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class ÁÙ¼­±â_14864 {
+public class ì¤„ì„œê¸°_14864 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int M = sc.nextInt();
 
 		
-		//³» µÚ¿Í ¾Õ¿¡ ¸î¸íÀÌ ÀÖ´Â Áö ¼¼±â
+		//ï¿½ï¿½ ï¿½Ú¿ï¿½ ï¿½Õ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		int[] back = new int[N+1];
 		int[] front = new int[N+1];
 		

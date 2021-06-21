@@ -3,7 +3,7 @@ package BAEKJOON;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class È¸ÀüÃÊ¹ä_2531 {
+public class íšŒì „ì´ˆë°¥_2531 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

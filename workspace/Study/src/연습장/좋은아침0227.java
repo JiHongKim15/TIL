@@ -1,4 +1,4 @@
-package �뿰�뒿�옣;
+package 연습장;
 
 import java.util.Arrays;
 

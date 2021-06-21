@@ -3,7 +3,7 @@ package BAEKJOON;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ¼Ò¼öÀÇ¿¬¼ÓÇÕ_1644 {
+public class ì†Œìˆ˜ì˜ì—°ì†í•©_1644 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();

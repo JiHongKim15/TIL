@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class ¼øÈ¸°­¿¬_2109 {
+public class ìˆœíšŒê°•ì—°_2109 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
@@ -43,10 +43,10 @@ public class ¼øÈ¸°­¿¬_2109 {
 		
 		// O(nlogn)
 		for (int j = 0; j < arr.length; j++) {
-			// ÀÌÁøÆ®¸®
+			// ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½
 			
-			// °­ÀÇ¸¦ ÇÒ ¼ö ÀÖ´Â ³¯Â¥
-			// lower + 1 ==> ¼ýÀÚ
+			// ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½Â¥
+			// lower + 1 ==> ï¿½ï¿½ï¿½ï¿½
 			Integer a = set.lower(arr[j][1]+1);
 			
 			if(a == null)

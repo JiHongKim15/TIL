@@ -32,7 +32,7 @@ public class 월간챌린지_3 {
 	}
 
 	public static long solution(int[] a, int[][] edges) {
-`		long answer = -1;
+		long answer = -1;
 
 		n = a.length;
 

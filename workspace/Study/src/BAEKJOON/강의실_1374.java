@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class °­ÀÇ½Ç_1374 {
+public class ê°•ì˜ì‹¤_1374 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
