@@ -43,10 +43,7 @@ public class 순회강연_2109 {
 		
 		// O(nlogn)
 		for (int j = 0; j < arr.length; j++) {
-			// ����Ʈ��
 			
-			// ���Ǹ� �� �� �ִ� ��¥
-			// lower + 1 ==> ����
 			Integer a = set.lower(arr[j][1]+1);
 			
 			if(a == null)
