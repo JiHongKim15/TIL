@@ -130,3 +130,42 @@ public interface Dao{
 
 controller -> 프론트
 service -> 비즈니스 로직
+
+//transation
+@Autowiredㄴ
+TranactionTemplate transactionTemplate;
+
+
+public void outTransaction(){
+    try{
+        transactionTemplate.execute(new TransactionCallbackWithoutResult(){
+
+            @Override
+            protected void doInTransactionWithoutResult(TransactionStatus arg0){
+                // C sql
+                inTransaction();
+            }
+        });
+    } catch(Exception e){
+        //error
+    }
+}
+
+
+// 전파 속성 설정
+//REQUIRES_NEW 대신 위 표의 내용으로 속성 지정 가능
+@Transactional(propagation=propagation.REQUIREDS_NEW)
+public void inTransaction(){
+    try{
+        transactionTemplate.execute(new TransactionCallbackWithoutResult(){
+
+            @Override
+            protected void doInTransactionWithoutResult(TransactionStatus arg0){
+                // A sql
+                // B sql
+            }
+        });
+    } catch(Exception e){
+        //error
+    }
+}
